@@ -11,8 +11,7 @@ composer require rotaz-dev/php-regex
 ## Exemplos de Uso
 
 ```php
-use PhpRegex\Validator;
-use PhpRegex\RegexPatterns;
+use PhpRegex\Regex\Validator;
 
 try {
     Validator::validateCpf('123.456.789-00');
