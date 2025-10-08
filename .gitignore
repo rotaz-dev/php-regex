@@ -30,7 +30,6 @@ Homestead.json
 auth.json
 
 # IDE files
-/.idea/
 /*.iml
 
 # OS files
