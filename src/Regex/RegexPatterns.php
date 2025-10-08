@@ -84,5 +84,28 @@ class RegexPatterns
     public const NUMBER_WITH_NUMBER = '/^[0-90]+$/';
     public const NUMBER_WITH_NUMBER_WITH_SPACE = '/^[0-90 ]+$/';
 
+    public const STR_LENGTH_WITHOUT_SPACE = '/^\S{1,}$/';
+    public const STR_LENGTH_WITHOUT_SPACE_AND_DOT = '/^\S{1,}$/';
+    public const STR_LENGTH_WITHOUT_SPACE_AND_DOT_AND_HYPHEN = '/^\S{1,}$/';
+    public const STR_LENGTH_WITHOUT_SPACE_AND_DOT_AND_HYPHEN_AND_UNDERSCORE = '/^\S{1,}$/';
+    public const STR_LENGTH_WITHOUT_SPACE_AND_DOT_AND_HYPHEN_AND_UNDERSCORE_AND_SLASH   = '/^\S{1,}$/';
+    public const STR_LENGTH_WITHOUT_SPACE_AND_DOT_AND_HYPHEN_AND_UNDERSCORE_AND_SLASH_AND_COLON = '/^\S{1,}$/';
+
+    public const HTTP_CODE = '/^2\d{2}$/';
+    public const HTTP_CODE_WITH_SPACE = '/^2\d{2}$/';
+    public const HTTP_CODE_WITH_SPACE_AND_DOT = '/^2\d{2}$/';
+    public const HTTP_CODE_BETWEEN_200_AND_299 = '/^2\d{2}$/';
+    public const HTTP_CODE_BETWEEN_200_AND_299_WITH_SPACE = '/^2\d{2}$/';
+    public const HTTP_CODE_BETWEEN_200_AND_299_WITH_SPACE_AND_DOT = '/^2\d{2}$/';
+    public const HTTP_CODE_BETWEEN_300_AND_399 = '/^3\d{2}$/';
+    public const HTTP_CODE_BETWEEN_300_AND_399_WITH_SPACE = '/^3\d{2}$/';
+    public const HTTP_CODE_BETWEEN_300_AND_399_WITH_SPACE_AND_DOT = '/^3\d{2}$/';
+    public const HTTP_CODE_BETWEEN_400_AND_499 = '/^4\d{2}$/';
+    public const HTTP_CODE_BETWEEN_400_AND_499_WITH_SPACE = '/^4\d{2}$/';
+    public const HTTP_CODE_BETWEEN_400_AND_499_WITH_SPACE_AND_DOT = '/^4\d{2}$/';
+    public const HTTP_CODE_BETWEEN_500_AND_599 = '/^5\d{2}$/';
+    public const HTTP_CODE_BETWEEN_500_AND_599_WITH_SPACE = '/^5\d{2}$/';
+    public const HTTP_CODE_BETWEEN_500_AND_599_WITH_SPACE_AND_DOT = '/^5\d{2}$/';
+
 
 }
