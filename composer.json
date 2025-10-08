@@ -2,6 +2,9 @@
   "name": "rotaz/php-regex",
   "description": "Coleção de expressões regulares e validadores PHP para dados do cotidiano.",
   "type": "library",
+  "keywords": ["regex", "validations", "validators", "cpf", "phone", "email", "date"],
+  "homepage": "https://github.com/rotaz-dev/php-regex",
+  "version": "1.0.0",
   "require": {
     "php": ">=7.4"
   },

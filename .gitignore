@@ -28,3 +28,20 @@ Homestead.json
 .env.production
 .phpactor.json
 auth.json
+/composer.lock
+
+# IDE files
+/.idea/
+/*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Cache
+/cache/
+/tmp/
+.phpunit.cache
