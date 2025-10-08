@@ -4,7 +4,6 @@
   "type": "library",
   "keywords": ["regex", "validations", "validators", "cpf", "phone", "email", "date"],
   "homepage": "https://github.com/rotaz-dev/php-regex",
-  "version": "1.0.0",
   "require": {
     "php": ">=7.4"
   },
@@ -24,8 +23,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "rotaz-dev",
-      "email": "seu@email.com"
+      "name": "ROTAZ Dev Team",
+      "email": "dev@rotaz.app.br"
     }
   ],
   "scripts": {
